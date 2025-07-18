@@ -1,7 +1,7 @@
 import React from "react";
-import Hero from "@/components/Home/Hero";
+import Hero from "@/components/Home/Home";
 import Features from "@/components/Home/Features";
-import Cook from "@/components/Home/Cook";
+import FeaturesSection from "@/components/Home/Recipe";
 import Expert from "@/components/Home/Expert";
 import Gallery from "@/components/Home/Gallery";
 import Newsletter from "@/components/Home/Newsletter";
@@ -15,7 +15,7 @@ export default function Home() {
     <main>
       <Hero />
       <Features />
-      <Cook />
+      <FeaturesSection />
       <Expert />
       <Gallery />
       <Newsletter />
