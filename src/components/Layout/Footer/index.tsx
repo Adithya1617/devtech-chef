@@ -54,12 +54,10 @@ const Footer: FC = () => {
                 </Link>
               </li>
               <li className="pb-5">
-                <Link
-                  href="#"
-                  className="text-black/70 dark:text-white/70 hover:text-primary dark:hover:text-primary text-base"
-                >
+                <Link href="/career" className="hover:text-primary font-medium">
                   Careers
                 </Link>
+
               </li>
               <li className="pb-5">
                 <Link
